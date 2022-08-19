@@ -1,0 +1,20 @@
+ 1 cd C:\temp\Sample - Python
+   2 cd "C:\temp\Sample - Python"
+   3 docker build -t samplepython .
+   4 docker run samplepython
+   5 docker build -t samplepython .
+   6 docker run samplepython
+   7 docker build -t samplepython .
+   8 docker run samplepython
+   9 docker ps -a
+  10 docker rm fe1aa90a8ffb
+  11 docker rmi samplepython --force
+  12 git init
+  13 git status
+  14 git add .
+  15 git status
+  16 git commit -m "my first commit"
+  17 git status
+  18 git remote add origin https://github.com/pavanshivanand/samplepython.git
+  19 git remote -v
+  20 git push origin master
